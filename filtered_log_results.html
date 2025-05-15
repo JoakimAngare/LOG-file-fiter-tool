@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LOG File Filtering Results</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #333; }
+        .result-line { margin: 5px 0; padding: 5px; border-bottom: 1px solid #eee; font-family: monospace; white-space: pre-wrap; }
+        .file-info { color: #555; font-weight: bold; }
+        .match { background-color: #CCFFCC; color: #008800; font-weight: bold; }
+        .mismatch { background-color: #FFCCCC; color: #CC0000; font-weight: bold; }
+        .configuration { background-color: #CCE5FF; color: #0066CC; font-weight: bold; }
+        .highlight { background-color: #FFFFCC; color: #888800; font-weight: bold; }
+        .summary { margin: 20px 0; padding: 10px; background-color: #f0f0f0; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>LOG File Filtering Results</h1>
+    <div class="summary">
+        <p>Total matches found: 274</p>
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T073740_20250503_T080743_IPELOG2_003_v1_MEA_7139.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T073740_20250503_T080743_IPELOG2_003_v1_MEA_7139.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T080743_20250503_T083746_IPELOG2_003_v1_MEA_7140.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T080743_20250503_T083746_IPELOG2_003_v1_MEA_7140.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T083746_20250503_T090749_IPELOG2_003_v1_MEA_7141.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T083746_20250503_T090749_IPELOG2_003_v1_MEA_7141.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T090749_20250503_T093752_IPELOG2_003_v1_MEA_7142.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T090749_20250503_T093752_IPELOG2_003_v1_MEA_7142.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T093752_20250503_T100756_IPELOG2_003_v1_MEA_7143.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T093752_20250503_T100756_IPELOG2_003_v1_MEA_7143.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T100756_20250503_T103758_IPELOG2_003_v1_MEA_7144.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T100756_20250503_T103758_IPELOG2_003_v1_MEA_7144.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T103758_20250503_T110802_IPELOG2_003_v1_MEA_7145.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T103758_20250503_T110802_IPELOG2_003_v1_MEA_7145.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T110802_20250503_T113805_IPELOG2_003_v1_MEA_7146.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T110802_20250503_T113805_IPELOG2_003_v1_MEA_7146.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T113805_20250503_T120809_IPELOG2_003_v1_MEA_7147.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T113805_20250503_T120809_IPELOG2_003_v1_MEA_7147.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T120809_20250503_T123812_IPELOG2_003_v1_MEA_7148.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T120809_20250503_T123812_IPELOG2_003_v1_MEA_7148.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T123812_20250503_T130815_IPELOG2_003_v1_MEA_7149.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T123812_20250503_T130815_IPELOG2_003_v1_MEA_7149.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T130815_20250503_T133818_IPELOG2_003_v1_MEA_7150.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T130815_20250503_T133818_IPELOG2_003_v1_MEA_7150.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T133818_20250503_T140822_IPELOG2_003_v1_MEA_7151.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T133818_20250503_T140822_IPELOG2_003_v1_MEA_7151.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T140822_20250503_T143825_IPELOG2_003_v1_MEA_7152.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T140822_20250503_T143825_IPELOG2_003_v1_MEA_7152.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T143825_20250503_T150828_IPELOG2_003_v1_MEA_7153.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T143825_20250503_T150828_IPELOG2_003_v1_MEA_7153.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T150828_20250503_T153831_IPELOG2_003_v1_MEA_7154.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T150828_20250503_T153831_IPELOG2_003_v1_MEA_7154.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T153831_20250503_T160834_IPELOG2_003_v1_MEA_7155.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T153831_20250503_T160834_IPELOG2_003_v1_MEA_7155.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T160834_20250503_T163838_IPELOG2_003_v1_MEA_7156.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T160834_20250503_T163838_IPELOG2_003_v1_MEA_7156.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T163838_20250503_T170841_IPELOG2_003_v1_MEA_7157.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T163838_20250503_T170841_IPELOG2_003_v1_MEA_7157.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T170841_20250503_T173844_IPELOG2_003_v1_MEA_7158.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T170841_20250503_T173844_IPELOG2_003_v1_MEA_7158.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T173844_20250503_T180847_IPELOG2_003_v1_MEA_7159.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T173844_20250503_T180847_IPELOG2_003_v1_MEA_7159.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T180847_20250503_T183851_IPELOG2_003_v1_MEA_7160.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T180847_20250503_T183851_IPELOG2_003_v1_MEA_7160.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T183851_20250503_T190854_IPELOG2_003_v1_MEA_7161.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T183851_20250503_T190854_IPELOG2_003_v1_MEA_7161.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T190854_20250503_T193857_IPELOG2_003_v1_MEA_7162.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T190854_20250503_T193857_IPELOG2_003_v1_MEA_7162.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T193857_20250503_T200900_IPELOG2_003_v1_MEA_7163.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T193857_20250503_T200900_IPELOG2_003_v1_MEA_7163.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T200900_20250503_T203904_IPELOG2_003_v1_MEA_7164.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T200900_20250503_T203904_IPELOG2_003_v1_MEA_7164.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T203904_20250503_T210907_IPELOG2_003_v1_MEA_7165.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T203904_20250503_T210907_IPELOG2_003_v1_MEA_7165.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T210907_20250503_T213910_IPELOG2_003_v1_MEA_7166.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T210907_20250503_T213910_IPELOG2_003_v1_MEA_7166.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T213910_20250503_T220913_IPELOG2_003_v1_MEA_7167.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T213910_20250503_T220913_IPELOG2_003_v1_MEA_7167.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T220913_20250503_T223917_IPELOG2_003_v1_MEA_7168.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T220913_20250503_T223917_IPELOG2_003_v1_MEA_7168.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T223917_20250503_T230920_IPELOG2_003_v1_MEA_7169.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T223917_20250503_T230920_IPELOG2_003_v1_MEA_7169.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T230920_20250503_T233923_IPELOG2_003_v1_MEA_7170.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T230920_20250503_T233923_IPELOG2_003_v1_MEA_7170.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T233923_20250504_T000926_IPELOG2_003_v1_MEA_7171.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250503_T233923_20250504_T000926_IPELOG2_003_v1_MEA_7171.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T000926_20250504_T003929_IPELOG2_003_v1_MEA_7172.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T000926_20250504_T003929_IPELOG2_003_v1_MEA_7172.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T003929_20250504_T010500_IPELOG2_003_v1_MEA_7173.LOG - Line 8:</span> 03.05.2025 01:05:16,376330 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T003929_20250504_T010500_IPELOG2_003_v1_MEA_7173.LOG - Line 49:</span> 03.05.2025 01:06:55,469821 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T010657_20250504_T013700_IPELOG2_003_v1_MEA_7174.LOG - Line 8:</span> 04.05.2025 01:05:18,384936 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T010657_20250504_T013700_IPELOG2_003_v1_MEA_7174.LOG - Line 49:</span> 04.05.2025 01:06:55,753485 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T010657_20250504_T013700_IPELOG2_003_v1_MEA_7174.LOG - Line 2732:</span> 04.05.2025 01:24:53,489885 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T010657_20250504_T013700_IPELOG2_003_v1_MEA_7174.LOG - Line 2736:</span> 04.05.2025 01:24:59,064796 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T010657_20250504_T013700_IPELOG2_003_v1_MEA_7174.LOG - Line 2742:</span> 04.05.2025 01:25:04,711643 W 0x000004C0 Protocols: CCP: EPK 250220 17:02:24 Type:ct  1Mbit Ver:21s5200f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version2 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T010657_20250504_T013700_IPELOG2_003_v1_MEA_7174.LOG - Line 2748:</span> 04.05.2025 01:25:13,182586 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T010657_20250504_T013700_IPELOG2_003_v1_MEA_7174.LOG - Line 2752:</span> 04.05.2025 01:25:18,894811 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T010657_20250504_T013700_IPELOG2_003_v1_MEA_7174.LOG - Line 2757:</span> 04.05.2025 01:25:24,603847 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T013700_20250504_T020703_IPELOG2_003_v1_MEA_7175.LOG - Line 8:</span> 04.05.2025 01:05:18,384936 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T013700_20250504_T020703_IPELOG2_003_v1_MEA_7175.LOG - Line 49:</span> 04.05.2025 01:06:55,753485 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T013700_20250504_T020703_IPELOG2_003_v1_MEA_7175.LOG - Line 2732:</span> 04.05.2025 01:24:53,489885 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T013700_20250504_T020703_IPELOG2_003_v1_MEA_7175.LOG - Line 2736:</span> 04.05.2025 01:24:59,064796 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T013700_20250504_T020703_IPELOG2_003_v1_MEA_7175.LOG - Line 2742:</span> 04.05.2025 01:25:04,711643 W 0x000004C0 Protocols: CCP: EPK 250220 17:02:24 Type:ct  1Mbit Ver:21s5200f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version2 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T013700_20250504_T020703_IPELOG2_003_v1_MEA_7175.LOG - Line 2748:</span> 04.05.2025 01:25:13,182586 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T013700_20250504_T020703_IPELOG2_003_v1_MEA_7175.LOG - Line 2752:</span> 04.05.2025 01:25:18,894811 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T013700_20250504_T020703_IPELOG2_003_v1_MEA_7175.LOG - Line 2757:</span> 04.05.2025 01:25:24,603847 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T020703_20250504_T023705_IPELOG2_003_v1_MEA_7176.LOG - Line 8:</span> 04.05.2025 01:05:18,384936 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T020703_20250504_T023705_IPELOG2_003_v1_MEA_7176.LOG - Line 49:</span> 04.05.2025 01:06:55,753485 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T020703_20250504_T023705_IPELOG2_003_v1_MEA_7176.LOG - Line 2732:</span> 04.05.2025 01:24:53,489885 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T020703_20250504_T023705_IPELOG2_003_v1_MEA_7176.LOG - Line 2736:</span> 04.05.2025 01:24:59,064796 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T020703_20250504_T023705_IPELOG2_003_v1_MEA_7176.LOG - Line 2742:</span> 04.05.2025 01:25:04,711643 W 0x000004C0 Protocols: CCP: EPK 250220 17:02:24 Type:ct  1Mbit Ver:21s5200f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version2 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T020703_20250504_T023705_IPELOG2_003_v1_MEA_7176.LOG - Line 2748:</span> 04.05.2025 01:25:13,182586 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T020703_20250504_T023705_IPELOG2_003_v1_MEA_7176.LOG - Line 2752:</span> 04.05.2025 01:25:18,894811 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T020703_20250504_T023705_IPELOG2_003_v1_MEA_7176.LOG - Line 2757:</span> 04.05.2025 01:25:24,603847 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T023705_20250504_T030709_IPELOG2_003_v1_MEA_7177.LOG - Line 8:</span> 04.05.2025 01:05:18,384936 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T023705_20250504_T030709_IPELOG2_003_v1_MEA_7177.LOG - Line 49:</span> 04.05.2025 01:06:55,753485 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T023705_20250504_T030709_IPELOG2_003_v1_MEA_7177.LOG - Line 2732:</span> 04.05.2025 01:24:53,489885 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T023705_20250504_T030709_IPELOG2_003_v1_MEA_7177.LOG - Line 2736:</span> 04.05.2025 01:24:59,064796 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T023705_20250504_T030709_IPELOG2_003_v1_MEA_7177.LOG - Line 2742:</span> 04.05.2025 01:25:04,711643 W 0x000004C0 Protocols: CCP: EPK 250220 17:02:24 Type:ct  1Mbit Ver:21s5200f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version2 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T023705_20250504_T030709_IPELOG2_003_v1_MEA_7177.LOG - Line 2748:</span> 04.05.2025 01:25:13,182586 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T023705_20250504_T030709_IPELOG2_003_v1_MEA_7177.LOG - Line 2752:</span> 04.05.2025 01:25:18,894811 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T023705_20250504_T030709_IPELOG2_003_v1_MEA_7177.LOG - Line 2757:</span> 04.05.2025 01:25:24,603847 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T030709_20250504_T033713_IPELOG2_003_v1_MEA_7178.LOG - Line 8:</span> 04.05.2025 01:05:18,384936 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T030709_20250504_T033713_IPELOG2_003_v1_MEA_7178.LOG - Line 49:</span> 04.05.2025 01:06:55,753485 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T030709_20250504_T033713_IPELOG2_003_v1_MEA_7178.LOG - Line 2732:</span> 04.05.2025 01:24:53,489885 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T030709_20250504_T033713_IPELOG2_003_v1_MEA_7178.LOG - Line 2736:</span> 04.05.2025 01:24:59,064796 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T030709_20250504_T033713_IPELOG2_003_v1_MEA_7178.LOG - Line 2742:</span> 04.05.2025 01:25:04,711643 W 0x000004C0 Protocols: CCP: EPK 250220 17:02:24 Type:ct  1Mbit Ver:21s5200f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version2 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T030709_20250504_T033713_IPELOG2_003_v1_MEA_7178.LOG - Line 2748:</span> 04.05.2025 01:25:13,182586 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T030709_20250504_T033713_IPELOG2_003_v1_MEA_7178.LOG - Line 2752:</span> 04.05.2025 01:25:18,894811 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T030709_20250504_T033713_IPELOG2_003_v1_MEA_7178.LOG - Line 2757:</span> 04.05.2025 01:25:24,603847 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T033713_20250504_T040716_IPELOG2_003_v1_MEA_7179.LOG - Line 8:</span> 04.05.2025 01:05:18,384936 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T033713_20250504_T040716_IPELOG2_003_v1_MEA_7179.LOG - Line 49:</span> 04.05.2025 01:06:55,753485 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T033713_20250504_T040716_IPELOG2_003_v1_MEA_7179.LOG - Line 2732:</span> 04.05.2025 01:24:53,489885 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T033713_20250504_T040716_IPELOG2_003_v1_MEA_7179.LOG - Line 2736:</span> 04.05.2025 01:24:59,064796 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T033713_20250504_T040716_IPELOG2_003_v1_MEA_7179.LOG - Line 2742:</span> 04.05.2025 01:25:04,711643 W 0x000004C0 Protocols: CCP: EPK 250220 17:02:24 Type:ct  1Mbit Ver:21s5200f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version2 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T033713_20250504_T040716_IPELOG2_003_v1_MEA_7179.LOG - Line 2748:</span> 04.05.2025 01:25:13,182586 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T033713_20250504_T040716_IPELOG2_003_v1_MEA_7179.LOG - Line 2752:</span> 04.05.2025 01:25:18,894811 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T033713_20250504_T040716_IPELOG2_003_v1_MEA_7179.LOG - Line 2757:</span> 04.05.2025 01:25:24,603847 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T040716_20250504_T043719_IPELOG2_003_v1_MEA_7180.LOG - Line 8:</span> 04.05.2025 01:05:18,384936 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T040716_20250504_T043719_IPELOG2_003_v1_MEA_7180.LOG - Line 49:</span> 04.05.2025 01:06:55,753485 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T040716_20250504_T043719_IPELOG2_003_v1_MEA_7180.LOG - Line 2732:</span> 04.05.2025 01:24:53,489885 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T040716_20250504_T043719_IPELOG2_003_v1_MEA_7180.LOG - Line 2736:</span> 04.05.2025 01:24:59,064796 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T040716_20250504_T043719_IPELOG2_003_v1_MEA_7180.LOG - Line 2742:</span> 04.05.2025 01:25:04,711643 W 0x000004C0 Protocols: CCP: EPK 250220 17:02:24 Type:ct  1Mbit Ver:21s5200f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version2 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T040716_20250504_T043719_IPELOG2_003_v1_MEA_7180.LOG - Line 2748:</span> 04.05.2025 01:25:13,182586 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T040716_20250504_T043719_IPELOG2_003_v1_MEA_7180.LOG - Line 2752:</span> 04.05.2025 01:25:18,894811 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T040716_20250504_T043719_IPELOG2_003_v1_MEA_7180.LOG - Line 2757:</span> 04.05.2025 01:25:24,603847 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T043719_20250504_T050722_IPELOG2_003_v1_MEA_7181.LOG - Line 8:</span> 04.05.2025 01:05:18,384936 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T043719_20250504_T050722_IPELOG2_003_v1_MEA_7181.LOG - Line 49:</span> 04.05.2025 01:06:55,753485 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T043719_20250504_T050722_IPELOG2_003_v1_MEA_7181.LOG - Line 2732:</span> 04.05.2025 01:24:53,489885 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T043719_20250504_T050722_IPELOG2_003_v1_MEA_7181.LOG - Line 2736:</span> 04.05.2025 01:24:59,064796 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T043719_20250504_T050722_IPELOG2_003_v1_MEA_7181.LOG - Line 2742:</span> 04.05.2025 01:25:04,711643 W 0x000004C0 Protocols: CCP: EPK 250220 17:02:24 Type:ct  1Mbit Ver:21s5200f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version2 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T043719_20250504_T050722_IPELOG2_003_v1_MEA_7181.LOG - Line 2748:</span> 04.05.2025 01:25:13,182586 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T043719_20250504_T050722_IPELOG2_003_v1_MEA_7181.LOG - Line 2752:</span> 04.05.2025 01:25:18,894811 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T043719_20250504_T050722_IPELOG2_003_v1_MEA_7181.LOG - Line 2757:</span> 04.05.2025 01:25:24,603847 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T050722_20250504_T053725_IPELOG2_003_v1_MEA_7182.LOG - Line 8:</span> 04.05.2025 01:05:18,384936 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T050722_20250504_T053725_IPELOG2_003_v1_MEA_7182.LOG - Line 49:</span> 04.05.2025 01:06:55,753485 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T050722_20250504_T053725_IPELOG2_003_v1_MEA_7182.LOG - Line 2732:</span> 04.05.2025 01:24:53,489885 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T050722_20250504_T053725_IPELOG2_003_v1_MEA_7182.LOG - Line 2736:</span> 04.05.2025 01:24:59,064796 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T050722_20250504_T053725_IPELOG2_003_v1_MEA_7182.LOG - Line 2742:</span> 04.05.2025 01:25:04,711643 W 0x000004C0 Protocols: CCP: EPK 250220 17:02:24 Type:ct  1Mbit Ver:21s5200f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version2 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T050722_20250504_T053725_IPELOG2_003_v1_MEA_7182.LOG - Line 2748:</span> 04.05.2025 01:25:13,182586 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T050722_20250504_T053725_IPELOG2_003_v1_MEA_7182.LOG - Line 2752:</span> 04.05.2025 01:25:18,894811 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T050722_20250504_T053725_IPELOG2_003_v1_MEA_7182.LOG - Line 2757:</span> 04.05.2025 01:25:24,603847 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T053725_20250504_T060729_IPELOG2_003_v1_MEA_7183.LOG - Line 8:</span> 04.05.2025 01:05:18,384936 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T053725_20250504_T060729_IPELOG2_003_v1_MEA_7183.LOG - Line 49:</span> 04.05.2025 01:06:55,753485 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T053725_20250504_T060729_IPELOG2_003_v1_MEA_7183.LOG - Line 2732:</span> 04.05.2025 01:24:53,489885 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T053725_20250504_T060729_IPELOG2_003_v1_MEA_7183.LOG - Line 2736:</span> 04.05.2025 01:24:59,064796 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T053725_20250504_T060729_IPELOG2_003_v1_MEA_7183.LOG - Line 2742:</span> 04.05.2025 01:25:04,711643 W 0x000004C0 Protocols: CCP: EPK 250220 17:02:24 Type:ct  1Mbit Ver:21s5200f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version2 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T053725_20250504_T060729_IPELOG2_003_v1_MEA_7183.LOG - Line 2748:</span> 04.05.2025 01:25:13,182586 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T053725_20250504_T060729_IPELOG2_003_v1_MEA_7183.LOG - Line 2752:</span> 04.05.2025 01:25:18,894811 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T053725_20250504_T060729_IPELOG2_003_v1_MEA_7183.LOG - Line 2757:</span> 04.05.2025 01:25:24,603847 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T060729_20250504_T063732_IPELOG2_003_v1_MEA_7184.LOG - Line 8:</span> 04.05.2025 01:05:18,384936 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T060729_20250504_T063732_IPELOG2_003_v1_MEA_7184.LOG - Line 49:</span> 04.05.2025 01:06:55,753485 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T060729_20250504_T063732_IPELOG2_003_v1_MEA_7184.LOG - Line 2732:</span> 04.05.2025 01:24:53,489885 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T060729_20250504_T063732_IPELOG2_003_v1_MEA_7184.LOG - Line 2736:</span> 04.05.2025 01:24:59,064796 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T060729_20250504_T063732_IPELOG2_003_v1_MEA_7184.LOG - Line 2742:</span> 04.05.2025 01:25:04,711643 W 0x000004C0 Protocols: CCP: EPK 250220 17:02:24 Type:ct  1Mbit Ver:21s5200f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version2 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T060729_20250504_T063732_IPELOG2_003_v1_MEA_7184.LOG - Line 2748:</span> 04.05.2025 01:25:13,182586 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T060729_20250504_T063732_IPELOG2_003_v1_MEA_7184.LOG - Line 2752:</span> 04.05.2025 01:25:18,894811 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T060729_20250504_T063732_IPELOG2_003_v1_MEA_7184.LOG - Line 2757:</span> 04.05.2025 01:25:24,603847 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T063732_20250504_T070735_IPELOG2_003_v1_MEA_7185.LOG - Line 8:</span> 04.05.2025 01:05:18,384936 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T063732_20250504_T070735_IPELOG2_003_v1_MEA_7185.LOG - Line 49:</span> 04.05.2025 01:06:55,753485 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T063732_20250504_T070735_IPELOG2_003_v1_MEA_7185.LOG - Line 2732:</span> 04.05.2025 01:24:53,489885 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T063732_20250504_T070735_IPELOG2_003_v1_MEA_7185.LOG - Line 2736:</span> 04.05.2025 01:24:59,064796 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T063732_20250504_T070735_IPELOG2_003_v1_MEA_7185.LOG - Line 2742:</span> 04.05.2025 01:25:04,711643 W 0x000004C0 Protocols: CCP: EPK 250220 17:02:24 Type:ct  1Mbit Ver:21s5200f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version2 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T063732_20250504_T070735_IPELOG2_003_v1_MEA_7185.LOG - Line 2748:</span> 04.05.2025 01:25:13,182586 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T063732_20250504_T070735_IPELOG2_003_v1_MEA_7185.LOG - Line 2752:</span> 04.05.2025 01:25:18,894811 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T063732_20250504_T070735_IPELOG2_003_v1_MEA_7185.LOG - Line 2757:</span> 04.05.2025 01:25:24,603847 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T070735_20250504_T073738_IPELOG2_003_v1_MEA_7186.LOG - Line 8:</span> 04.05.2025 01:05:18,384936 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T070735_20250504_T073738_IPELOG2_003_v1_MEA_7186.LOG - Line 49:</span> 04.05.2025 01:06:55,753485 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T070735_20250504_T073738_IPELOG2_003_v1_MEA_7186.LOG - Line 2732:</span> 04.05.2025 01:24:53,489885 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T070735_20250504_T073738_IPELOG2_003_v1_MEA_7186.LOG - Line 2736:</span> 04.05.2025 01:24:59,064796 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T070735_20250504_T073738_IPELOG2_003_v1_MEA_7186.LOG - Line 2742:</span> 04.05.2025 01:25:04,711643 W 0x000004C0 Protocols: CCP: EPK 250220 17:02:24 Type:ct  1Mbit Ver:21s5200f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version2 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T070735_20250504_T073738_IPELOG2_003_v1_MEA_7186.LOG - Line 2748:</span> 04.05.2025 01:25:13,182586 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T070735_20250504_T073738_IPELOG2_003_v1_MEA_7186.LOG - Line 2752:</span> 04.05.2025 01:25:18,894811 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T070735_20250504_T073738_IPELOG2_003_v1_MEA_7186.LOG - Line 2757:</span> 04.05.2025 01:25:24,603847 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T073738_20250504_T080742_IPELOG2_003_v1_MEA_7187.LOG - Line 8:</span> 04.05.2025 01:05:18,384936 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T073738_20250504_T080742_IPELOG2_003_v1_MEA_7187.LOG - Line 49:</span> 04.05.2025 01:06:55,753485 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T073738_20250504_T080742_IPELOG2_003_v1_MEA_7187.LOG - Line 2732:</span> 04.05.2025 01:24:53,489885 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T073738_20250504_T080742_IPELOG2_003_v1_MEA_7187.LOG - Line 2736:</span> 04.05.2025 01:24:59,064796 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T073738_20250504_T080742_IPELOG2_003_v1_MEA_7187.LOG - Line 2742:</span> 04.05.2025 01:25:04,711643 W 0x000004C0 Protocols: CCP: EPK 250220 17:02:24 Type:ct  1Mbit Ver:21s5200f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version2 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T073738_20250504_T080742_IPELOG2_003_v1_MEA_7187.LOG - Line 2748:</span> 04.05.2025 01:25:13,182586 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T073738_20250504_T080742_IPELOG2_003_v1_MEA_7187.LOG - Line 2752:</span> 04.05.2025 01:25:18,894811 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T073738_20250504_T080742_IPELOG2_003_v1_MEA_7187.LOG - Line 2757:</span> 04.05.2025 01:25:24,603847 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T080742_20250504_T083745_IPELOG2_003_v1_MEA_7188.LOG - Line 8:</span> 04.05.2025 01:05:18,384936 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T080742_20250504_T083745_IPELOG2_003_v1_MEA_7188.LOG - Line 49:</span> 04.05.2025 01:06:55,753485 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T080742_20250504_T083745_IPELOG2_003_v1_MEA_7188.LOG - Line 2732:</span> 04.05.2025 01:24:53,489885 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T080742_20250504_T083745_IPELOG2_003_v1_MEA_7188.LOG - Line 2736:</span> 04.05.2025 01:24:59,064796 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T080742_20250504_T083745_IPELOG2_003_v1_MEA_7188.LOG - Line 2742:</span> 04.05.2025 01:25:04,711643 W 0x000004C0 Protocols: CCP: EPK 250220 17:02:24 Type:ct  1Mbit Ver:21s5200f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version2 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T080742_20250504_T083745_IPELOG2_003_v1_MEA_7188.LOG - Line 2748:</span> 04.05.2025 01:25:13,182586 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T080742_20250504_T083745_IPELOG2_003_v1_MEA_7188.LOG - Line 2752:</span> 04.05.2025 01:25:18,894811 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T080742_20250504_T083745_IPELOG2_003_v1_MEA_7188.LOG - Line 2757:</span> 04.05.2025 01:25:24,603847 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T083745_20250504_T090748_IPELOG2_003_v1_MEA_7189.LOG - Line 8:</span> 04.05.2025 01:05:18,384936 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T083745_20250504_T090748_IPELOG2_003_v1_MEA_7189.LOG - Line 49:</span> 04.05.2025 01:06:55,753485 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T083745_20250504_T090748_IPELOG2_003_v1_MEA_7189.LOG - Line 2732:</span> 04.05.2025 01:24:53,489885 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T083745_20250504_T090748_IPELOG2_003_v1_MEA_7189.LOG - Line 2736:</span> 04.05.2025 01:24:59,064796 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T083745_20250504_T090748_IPELOG2_003_v1_MEA_7189.LOG - Line 2742:</span> 04.05.2025 01:25:04,711643 W 0x000004C0 Protocols: CCP: EPK 250220 17:02:24 Type:ct  1Mbit Ver:21s5200f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version2 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T083745_20250504_T090748_IPELOG2_003_v1_MEA_7189.LOG - Line 2748:</span> 04.05.2025 01:25:13,182586 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T083745_20250504_T090748_IPELOG2_003_v1_MEA_7189.LOG - Line 2752:</span> 04.05.2025 01:25:18,894811 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T083745_20250504_T090748_IPELOG2_003_v1_MEA_7189.LOG - Line 2757:</span> 04.05.2025 01:25:24,603847 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T090748_20250504_T093751_IPELOG2_003_v1_MEA_7190.LOG - Line 8:</span> 04.05.2025 01:05:18,384936 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T090748_20250504_T093751_IPELOG2_003_v1_MEA_7190.LOG - Line 49:</span> 04.05.2025 01:06:55,753485 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T090748_20250504_T093751_IPELOG2_003_v1_MEA_7190.LOG - Line 2732:</span> 04.05.2025 01:24:53,489885 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T090748_20250504_T093751_IPELOG2_003_v1_MEA_7190.LOG - Line 2736:</span> 04.05.2025 01:24:59,064796 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T090748_20250504_T093751_IPELOG2_003_v1_MEA_7190.LOG - Line 2742:</span> 04.05.2025 01:25:04,711643 W 0x000004C0 Protocols: CCP: EPK 250220 17:02:24 Type:ct  1Mbit Ver:21s5200f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version2 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T090748_20250504_T093751_IPELOG2_003_v1_MEA_7190.LOG - Line 2748:</span> 04.05.2025 01:25:13,182586 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T090748_20250504_T093751_IPELOG2_003_v1_MEA_7190.LOG - Line 2752:</span> 04.05.2025 01:25:18,894811 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T090748_20250504_T093751_IPELOG2_003_v1_MEA_7190.LOG - Line 2757:</span> 04.05.2025 01:25:24,603847 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T093751_20250504_T100755_IPELOG2_003_v1_MEA_7191.LOG - Line 8:</span> 04.05.2025 01:05:18,384936 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T093751_20250504_T100755_IPELOG2_003_v1_MEA_7191.LOG - Line 49:</span> 04.05.2025 01:06:55,753485 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T093751_20250504_T100755_IPELOG2_003_v1_MEA_7191.LOG - Line 2732:</span> 04.05.2025 01:24:53,489885 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T093751_20250504_T100755_IPELOG2_003_v1_MEA_7191.LOG - Line 2736:</span> 04.05.2025 01:24:59,064796 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T093751_20250504_T100755_IPELOG2_003_v1_MEA_7191.LOG - Line 2742:</span> 04.05.2025 01:25:04,711643 W 0x000004C0 Protocols: CCP: EPK 250220 17:02:24 Type:ct  1Mbit Ver:21s5200f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version2 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T093751_20250504_T100755_IPELOG2_003_v1_MEA_7191.LOG - Line 2748:</span> 04.05.2025 01:25:13,182586 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T093751_20250504_T100755_IPELOG2_003_v1_MEA_7191.LOG - Line 2752:</span> 04.05.2025 01:25:18,894811 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T093751_20250504_T100755_IPELOG2_003_v1_MEA_7191.LOG - Line 2757:</span> 04.05.2025 01:25:24,603847 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T100755_20250504_T103758_IPELOG2_003_v1_MEA_7192.LOG - Line 8:</span> 04.05.2025 01:05:18,384936 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T100755_20250504_T103758_IPELOG2_003_v1_MEA_7192.LOG - Line 49:</span> 04.05.2025 01:06:55,753485 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T100755_20250504_T103758_IPELOG2_003_v1_MEA_7192.LOG - Line 2732:</span> 04.05.2025 01:24:53,489885 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T100755_20250504_T103758_IPELOG2_003_v1_MEA_7192.LOG - Line 2736:</span> 04.05.2025 01:24:59,064796 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T100755_20250504_T103758_IPELOG2_003_v1_MEA_7192.LOG - Line 2742:</span> 04.05.2025 01:25:04,711643 W 0x000004C0 Protocols: CCP: EPK 250220 17:02:24 Type:ct  1Mbit Ver:21s5200f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version2 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T100755_20250504_T103758_IPELOG2_003_v1_MEA_7192.LOG - Line 2748:</span> 04.05.2025 01:25:13,182586 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T100755_20250504_T103758_IPELOG2_003_v1_MEA_7192.LOG - Line 2752:</span> 04.05.2025 01:25:18,894811 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T100755_20250504_T103758_IPELOG2_003_v1_MEA_7192.LOG - Line 2757:</span> 04.05.2025 01:25:24,603847 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T103758_20250504_T110802_IPELOG2_003_v1_MEA_7193.LOG - Line 8:</span> 04.05.2025 01:05:18,384936 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T103758_20250504_T110802_IPELOG2_003_v1_MEA_7193.LOG - Line 49:</span> 04.05.2025 01:06:55,753485 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T103758_20250504_T110802_IPELOG2_003_v1_MEA_7193.LOG - Line 2732:</span> 04.05.2025 01:24:53,489885 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T103758_20250504_T110802_IPELOG2_003_v1_MEA_7193.LOG - Line 2736:</span> 04.05.2025 01:24:59,064796 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T103758_20250504_T110802_IPELOG2_003_v1_MEA_7193.LOG - Line 2742:</span> 04.05.2025 01:25:04,711643 W 0x000004C0 Protocols: CCP: EPK 250220 17:02:24 Type:ct  1Mbit Ver:21s5200f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version2 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T103758_20250504_T110802_IPELOG2_003_v1_MEA_7193.LOG - Line 2748:</span> 04.05.2025 01:25:13,182586 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T103758_20250504_T110802_IPELOG2_003_v1_MEA_7193.LOG - Line 2752:</span> 04.05.2025 01:25:18,894811 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T103758_20250504_T110802_IPELOG2_003_v1_MEA_7193.LOG - Line 2757:</span> 04.05.2025 01:25:24,603847 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T110802_20250504_T113805_IPELOG2_003_v1_MEA_7194.LOG - Line 8:</span> 04.05.2025 01:05:18,384936 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T110802_20250504_T113805_IPELOG2_003_v1_MEA_7194.LOG - Line 49:</span> 04.05.2025 01:06:55,753485 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T110802_20250504_T113805_IPELOG2_003_v1_MEA_7194.LOG - Line 2732:</span> 04.05.2025 01:24:53,489885 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T110802_20250504_T113805_IPELOG2_003_v1_MEA_7194.LOG - Line 2736:</span> 04.05.2025 01:24:59,064796 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T110802_20250504_T113805_IPELOG2_003_v1_MEA_7194.LOG - Line 2742:</span> 04.05.2025 01:25:04,711643 W 0x000004C0 Protocols: CCP: EPK 250220 17:02:24 Type:ct  1Mbit Ver:21s5200f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version2 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T110802_20250504_T113805_IPELOG2_003_v1_MEA_7194.LOG - Line 2748:</span> 04.05.2025 01:25:13,182586 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T110802_20250504_T113805_IPELOG2_003_v1_MEA_7194.LOG - Line 2752:</span> 04.05.2025 01:25:18,894811 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T110802_20250504_T113805_IPELOG2_003_v1_MEA_7194.LOG - Line 2757:</span> 04.05.2025 01:25:24,603847 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T113805_20250504_T120809_IPELOG2_003_v1_MEA_7195.LOG - Line 8:</span> 04.05.2025 01:05:18,384936 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T113805_20250504_T120809_IPELOG2_003_v1_MEA_7195.LOG - Line 49:</span> 04.05.2025 01:06:55,753485 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T113805_20250504_T120809_IPELOG2_003_v1_MEA_7195.LOG - Line 2732:</span> 04.05.2025 01:24:53,489885 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T113805_20250504_T120809_IPELOG2_003_v1_MEA_7195.LOG - Line 2736:</span> 04.05.2025 01:24:59,064796 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T113805_20250504_T120809_IPELOG2_003_v1_MEA_7195.LOG - Line 2742:</span> 04.05.2025 01:25:04,711643 W 0x000004C0 Protocols: CCP: EPK 250220 17:02:24 Type:ct  1Mbit Ver:21s5200f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version2 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T113805_20250504_T120809_IPELOG2_003_v1_MEA_7195.LOG - Line 2748:</span> 04.05.2025 01:25:13,182586 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T113805_20250504_T120809_IPELOG2_003_v1_MEA_7195.LOG - Line 2752:</span> 04.05.2025 01:25:18,894811 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250504_T113805_20250504_T120809_IPELOG2_003_v1_MEA_7195.LOG - Line 2757:</span> 04.05.2025 01:25:24,603847 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T073826_00000_T000000_IPELOG2_003_v1_MEA_7715.LOG - Line 8:</span> 15.05.2025 01:05:17,250761 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T073826_00000_T000000_IPELOG2_003_v1_MEA_7715.LOG - Line 49:</span> 15.05.2025 01:07:00,821659 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T073826_00000_T000000_IPELOG2_003_v1_MEA_7715.LOG - Line 54:</span> 15.05.2025 01:07:01,443299 W 0x000004C0 Protocols: CCP: EPK 241217 13:12:04 Type:ct  1Mbit Ver:11s4901f <span class="mismatch">mismatch</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version1 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T073826_00000_T000000_IPELOG2_003_v1_MEA_7715.LOG - Line 60:</span> 15.05.2025 01:07:06,659876 W 0x000004C0 Protocols: CCP: EPK 241217 13:12:04 Type:ct  1Mbit Ver:11s4901f <span class="mismatch">mismatch</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version1 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T073826_00000_T000000_IPELOG2_003_v1_MEA_7715.LOG - Line 66:</span> 15.05.2025 01:07:12,053917 W 0x000004C0 Protocols: CCP: EPK 240927 09:09:16 Type:ct  1Mbit Ver:21s4700f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version1 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T073826_00000_T000000_IPELOG2_003_v1_MEA_7715.LOG - Line 75:</span> 15.05.2025 01:07:29,161250 W 0x000004C0 Protocols: CCP: EPK 241217 13:12:04 Type:ct  1Mbit Ver:11s4901f <span class="mismatch">mismatch</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version1 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T073826_00000_T000000_IPELOG2_003_v1_MEA_7715.LOG - Line 83:</span> 15.05.2025 01:07:34,356333 W 0x000004C0 Protocols: CCP: EPK 241217 13:12:04 Type:ct  1Mbit Ver:11s4901f <span class="mismatch">mismatch</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version1 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T073826_00000_T000000_IPELOG2_003_v1_MEA_7715.LOG - Line 89:</span> 15.05.2025 01:07:39,609999 W 0x000004C0 Protocols: CCP: EPK 241217 13:12:04 Type:ct  1Mbit Ver:11s4901f <span class="mismatch">mismatch</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version1 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T073826_00000_T000000_IPELOG2_003_v1_MEA_7715.LOG - Line 118:</span> 15.05.2025 01:07:51,482137 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T073826_00000_T000000_IPELOG2_003_v1_MEA_7715.LOG - Line 124:</span> 15.05.2025 01:07:56,985642 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T073826_00000_T000000_IPELOG2_003_v1_MEA_7715.LOG - Line 131:</span> 15.05.2025 01:08:02,748033 W 0x000004C0 Protocols: CCP: EPK 250220 17:02:24 Type:ct  1Mbit Ver:21s5200f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version2 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T073826_00000_T000000_IPELOG2_003_v1_MEA_7715.LOG - Line 136:</span> 15.05.2025 01:08:11,065387 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T073826_00000_T000000_IPELOG2_003_v1_MEA_7715.LOG - Line 143:</span> 15.05.2025 01:08:16,603381 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T073826_00000_T000000_IPELOG2_003_v1_MEA_7715.LOG - Line 149:</span> 15.05.2025 01:08:22,127358 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T080846_20250515_T081435_IPELOG2_003_v1_MEA_7716.LOG - Line 8:</span> 15.05.2025 08:07:57,877901 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T080846_20250515_T081435_IPELOG2_003_v1_MEA_7716.LOG - Line 30:</span> 15.05.2025 08:08:01,012106 I 0x00000487 <span class="configuration">Configuration file:</span> Axlerod_BEV3_P160pIntro1_SESAMM7_250325_TMS_78s8302f_EMU_21s5200f_BMU_11s5300_MultiA2L_24R22.rwf
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T080846_20250515_T081435_IPELOG2_003_v1_MEA_7716.LOG - Line 35:</span> 15.05.2025 08:08:01,607490 W 0x000004C0 Protocols: CCP: EPK 241217 13:12:04 Type:ct  1Mbit Ver:11s4901f <span class="mismatch">mismatch</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version1 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T080846_20250515_T081435_IPELOG2_003_v1_MEA_7716.LOG - Line 41:</span> 15.05.2025 08:08:06,818514 W 0x000004C0 Protocols: CCP: EPK 241217 13:12:04 Type:ct  1Mbit Ver:11s4901f <span class="mismatch">mismatch</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version1 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T080846_20250515_T081435_IPELOG2_003_v1_MEA_7716.LOG - Line 48:</span> 15.05.2025 08:08:12,146974 W 0x000004C0 Protocols: CCP: EPK 240927 09:09:16 Type:ct  1Mbit Ver:21s4700f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version1 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T080846_20250515_T081435_IPELOG2_003_v1_MEA_7716.LOG - Line 59:</span> 15.05.2025 08:08:29,392886 W 0x000004C0 Protocols: CCP: EPK 241217 13:12:04 Type:ct  1Mbit Ver:11s4901f <span class="mismatch">mismatch</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version1 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T080846_20250515_T081435_IPELOG2_003_v1_MEA_7716.LOG - Line 65:</span> 15.05.2025 08:08:35,023279 W 0x000004C0 Protocols: CCP: EPK 241217 13:12:04 Type:ct  1Mbit Ver:11s4901f <span class="mismatch">mismatch</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version1 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T080846_20250515_T081435_IPELOG2_003_v1_MEA_7716.LOG - Line 71:</span> 15.05.2025 08:08:40,239557 W 0x000004C0 Protocols: CCP: EPK 241217 13:12:04 Type:ct  1Mbit Ver:11s4901f <span class="mismatch">mismatch</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version1 on CAN12_BMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T080846_20250515_T081435_IPELOG2_003_v1_MEA_7716.LOG - Line 100:</span> 15.05.2025 08:08:52,226313 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN2_BSU1_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T080846_20250515_T081435_IPELOG2_003_v1_MEA_7716.LOG - Line 106:</span> 15.05.2025 08:08:57,743639 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN3_BSU9_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T080846_20250515_T081435_IPELOG2_003_v1_MEA_7716.LOG - Line 114:</span> 15.05.2025 08:09:03,378720 W 0x000004C0 Protocols: CCP: EPK 250220 17:02:24 Type:ct  1Mbit Ver:21s5200f <span class="mismatch">mismatch</span> 250401 10:04:03 Type:ct  1Mbit Ver:21s5202f of EMU_version2 on CAN4_EMU_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T080846_20250515_T081435_IPELOG2_003_v1_MEA_7716.LOG - Line 119:</span> 15.05.2025 08:09:11,458474 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN10_BSU8_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T080846_20250515_T081435_IPELOG2_003_v1_MEA_7716.LOG - Line 125:</span> 15.05.2025 08:09:16,733104 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN11_BSU7_CCP
+    </div>
+    <div class="result-line">
+        <span class="file-info">Axlerod_20250515_T080846_20250515_T081435_IPELOG2_003_v1_MEA_7716.LOG - Line 130:</span> 15.05.2025 08:09:21,885761 I 0x000004B8 Protocols: CCP: EPK 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f <span class="match">match</span> 250221 16:02:41 Type:ct  1Mbit Ver:11s5300f of BMU_version2 on CAN12_BMU_CCP
+    </div>
+</body>
+</html>

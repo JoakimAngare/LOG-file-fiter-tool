@@ -1,0 +1,11 @@
+{
+    "keywords": [
+        "CCP: EPK",
+        "Configuration file:"
+    ],
+    "highlight_words": {
+        "mismatch": "RED",
+        "match": "GREEN",
+        "Configuration file:": "BLUE"
+    }
+}
